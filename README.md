@@ -1,4 +1,4 @@
-# Koa Server Template with TypeScript
+# A koa server template for nodejs
 
 This project is an open-source template for building server-side applications using Koa, TypeScript, tsup for building, and integrated ESLint + Prettier for code formatting and linting. It is designed to provide a starting point for developers looking to create robust, scalable, and maintainable web services or APIs.
 
@@ -27,7 +27,7 @@ This project is an open-source template for building server-side applications us
 2. Install dependencies:
 
    ```bash
-   cd koa-server-template
+   cd nodejs-server-template
    npm install
    ```
 
