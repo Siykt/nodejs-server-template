@@ -7,6 +7,7 @@ import 'reflect-metadata';
 import logger from './common/logger';
 import { ENV } from './constants/env';
 import { setupRouter } from './services/router';
+import { restful } from './middlewares/restful';
 
 const app = new koa({ proxy: true });
 app.on('error', (err) => {
@@ -20,6 +21,7 @@ async function bootstrap() {
   app.use(bodyParser());
 
   await setupRouter(app);
+  app.use(restful);
 
   app.listen({ port: ENV.APP_PORT }, () => {
     logger.info(`Server ready at ${ENV.APP_HOST}:${ENV.APP_PORT}`);
