@@ -8,6 +8,8 @@ This project is an open-source template for building server-side applications us
 - **TypeScript Support**: Leverages TypeScript for strong typing and enhanced development experience.
 - **tsup for Building**: Uses tsup for efficient and fast TypeScript compilation.
 - **ESLint + Prettier**: Integrated ESLint and Prettier for consistent code formatting and linting, ensuring code quality and style consistency.
+- **Advanced REST Architecture**: Features a polished RESTful architecture with efficient route management for streamlined API development.
+- **zod-based DTO Validation**: Introduces zod for clear, concise DTO middleware, greatly simplifying data validation and structuring.
 
 ## Getting Started
 
